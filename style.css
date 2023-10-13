@@ -1,10 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font: Comforta;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0)),
+    url("images/intro-1676483440.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    color: #ffffff;
+    text-align: left;
+}
+
+.hero-text h1{
+    font-size: 350%;
+    margin: auto;
+    padding: auto;
+}
+
 .h1{
     font-size: 4.2em;
     color: rgb(0, 0, 0);
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(168, 168, 168);
 }
     
 p{

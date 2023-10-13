@@ -12,7 +12,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80%;
+    height: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,4 +49,22 @@ h2{
 h3{
     color: rgb(0, 0, 0);
 }
+
+.car{
+    float: left;
+
+}
+
+.snowy-tesla{
+    float: left;
+    height: 20%;
+}
+
+.pos-cen{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 20%;
+}
+
 

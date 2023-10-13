@@ -9,10 +9,10 @@ body{
     background-image: linear-gradient(rgba(255, 255, 255, 0),
     rgba(0, 0, 0, 0)),
     url("images/intro-1676483440.jpg");
-    background-position: center;
+    background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200%;
+    height: 400%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,8 +62,8 @@ h3{
 
 .pos-cen{
     position: absolute;
-    width: 70%;
-    left: 15%;
+    width: 85%;
+    left: 5%;
     top: 10%;
 }
 
